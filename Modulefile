@@ -1,11 +1,11 @@
 name    'yguenane-mkdir'
 version '0.0.1'
-source 'UNKNOWN'
+source 'https://github.com/Spredzy/puppet-mkdir'
 author 'yguenane'
 license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
+summary 'A Demo module'
+description 'A Demo Module'
+project_page 'https://github.com/Spredzy/puppet-mkdir'
 
 ## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs/stdlib', '>= 3.2.0'
